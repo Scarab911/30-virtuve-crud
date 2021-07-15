@@ -16,7 +16,7 @@ class Virtuve {
         console.log('=====Siuo metu Saldytuve=====');
         for (let i = 0; i < this.ingredientsList.length; i++) {
             const item = this.ingredientsList[i];
-            console.log(`${i + 1}) ${item.item[0].toUpperCase()}: ${item.quantity}`);
+            console.log(`${i + 1}) ${item.item[0].toUpperCase() + item.item.slice(1)}: ${item.quantity}`);
         }
         console.log('===============^==============');
         console.log('');
